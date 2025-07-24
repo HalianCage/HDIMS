@@ -9,6 +9,7 @@ const DataEntryForm = () => {
   const navigate = useNavigate();
   const location = useLocation();
 
+
   const [isSidebarOpen, setIsSidebarOpen] = useState(true);
   const [currentFields, setCurrentFields] = useState([]);
   const [formData, setFormData] = useState([]);
@@ -132,7 +133,16 @@ const DataEntryForm = () => {
                         </Button>
                     ))}
                 </div>
-            </aside>
+              ))
+            )}
+
+            <button
+              type="submit"
+              className="bg-blue-600 text-white px-6 py-2 rounded hover:bg-blue-700"
+            >
+              Submit
+            </button>
+          </form>
         )}
       </div>
     </div>
