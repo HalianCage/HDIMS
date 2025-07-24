@@ -1,0 +1,15 @@
+data = 
+[
+    {
+        "category_id": 1,
+        "category_name": "Ante Natal Care(ANC)"
+    },
+    {
+        "category_id": 2,
+        "category_name": "Deliveries"
+    },
+    {
+        "category_id": 3,
+        "category_name": "Number of Caesarean (C-section) deliveries"
+    }
+]

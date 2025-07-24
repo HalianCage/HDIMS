@@ -13,6 +13,7 @@ app.get('/', (req, res) => {
 });
 
 
+
 //route to fetch category list from database and pass to frontend
 app.get('/getCategories', async (req, res) => {
 
@@ -39,7 +40,7 @@ app.get('/getFields', async (req, res) => {
     try {
 
         const result = await pool.query(`SELECT * FROM field_table WHERE category_id = $1`, [category_id]);
-        console.log(result.rows);
+        // console.log(result.rows);
         res.json(result.rows);
 
 

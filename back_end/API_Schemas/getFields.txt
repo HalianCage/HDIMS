@@ -1,0 +1,18 @@
+data = 
+[
+    {
+        "field_id": 11,
+        "field_name": "total number of pregnant women registered for ANC",
+        "category_id": 1
+    },
+    {
+        "field_id": 12,
+        "field_name": "Out of the total ANC registered, number registered within first trimester",
+        "category_id": 1
+    },
+    {
+        "field_id": 13,
+        "field_name": "Number of pregnant women given TT1 or Td1",
+        "category_id": 1
+    }
+]
