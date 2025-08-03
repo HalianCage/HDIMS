@@ -73,7 +73,7 @@ const FormCategorySelection = () => {
             <Button
               key={category.category_id}
               className="w-full h-16 bg-[#068ca2] hover:bg-[#057a8f] text-white text-lg justify-start px-6"
-              onClick={() => navigate("/data-entry", { state: { categoryId: `M${category.category_id}` } })}
+              onClick={() => navigate("/data-entry", { state: { categoryId: category.category_id, categoryName : category.category_name } })}
             >
               <span className="font-bold mr-4">{`M${category.category_id}`}</span>
               <span>{category.category_name}</span>
